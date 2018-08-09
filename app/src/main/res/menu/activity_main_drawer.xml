@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@drawable/ic_menu_sport"
+            android:title="Sport" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_menu_policy"
+            android:title="Policy" />
+        <item
+            android:id="@+id/nav_culture"
+            android:icon="@drawable/ic_menu_culture"
+            android:title="Culture" />
+
+    </group>
+
+
+</menu>
